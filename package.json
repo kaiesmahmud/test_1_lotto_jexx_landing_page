@@ -1,0 +1,15 @@
+{
+  "name": "test_1_lotto_jexx",
+  "version": "1.0.0",
+  "description": "Landing page test 1 ",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaies mahmud",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
+}

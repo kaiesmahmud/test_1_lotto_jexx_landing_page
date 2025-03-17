@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Set Nunito Sans as the default font */
+@layer base {
+    html {
+        font-family: 'Nunito Sans', sans-serif;
+    }
+}
