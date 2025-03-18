@@ -86,7 +86,7 @@ When you're ready to build the website for production:
 
 ```
 
-  npx tailwindcss -i ./src/input.css -o ./public/output.css --minify
+  npx tailwindcss -i ./src/input.css -o ./public/main.css --minify
 
 ```
 

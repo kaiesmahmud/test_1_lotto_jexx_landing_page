@@ -5,6 +5,9 @@
     html {
         font-family: 'Nunito Sans', sans-serif;
     }
+    body{
+        background-color: #ffffff; 
+    }
 }
 
 .round-corner { 

@@ -55,23 +55,108 @@
         <div class="flex justify-center items-center py-10 lg:py-16 h-[60vh] lg:h-[80vh]">
             <div data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000"
                 class="w-[80%] md:w-[80%] lg:1/3 text-center flex flex-col items-center gap-5 lg:gap-10 text-white">
-                <h1 class="text-5xl lg:text-[70px] font-bold">Play Lotto <span class="text-[#AEFE3A]">Jaxx</span> Online
-                </h1>
-                <p class="text-white/80 max-w-[500px]">Our exclusive Game Key Challenges await, offering you the chance
-                    to triumph over epic gaming challenges and unlock incredible rewards.</p>
-                <button
-                    class="px-5 py-2 shadow font-bold text-base text-black bg-[#AEFE3A] hover:bg-[#b0fe3ad2] rounded-full">Start
-                    Playing Now</button>
+
             </div>
         </div>
         <!-- ============ Hero Section End ============= -->
     </header>
     <!-- ========== Header Section End =========== -->
 
+    <!-- ======== Register Form ==========   -->
+    <div class="absolute top-[200px] w-full left-0 right-0 z-100">
+        <div class="flex items-center justify-center p-5">
+            <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md space-y-3">
+                <h1 class="text-2xl font-bold text-center mb-6">
+                    Create An Account
+                </h1>
+                <!-- Google Button -->
+                <button
+                    class="w-full py-2 px-4 border border-gray-300 rounded-md flex items-center justify-center gap-2 hover:bg-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 48 48">
+                        <path fill="#FFC107"
+                            d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z">
+                        </path>
+                        <path fill="#FF3D00"
+                            d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z">
+                        </path>
+                        <path fill="#4CAF50"
+                            d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z">
+                        </path>
+                        <path fill="#1976D2"
+                            d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z">
+                        </path>
+                    </svg>
+                    Continue with Google
+                </button>
 
+                <!-- Apple Button -->
+                <button
+                    class="w-full py-2 px-4 border border-gray-300 rounded-md flex items-center justify-center gap-2 hover:bg-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 384 512">
+                        <path
+                            d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                    </svg>
+                    Continue with Apple
+                </button>
 
+                <div class="flex items-center my-4">
+                    <hr class="flex-grow border-gray-300" />
+                    <span class="px-2 text-gray-500">
+                        or
+                    </span>
+                    <hr class="flex-grow border-gray-300" />
+                </div>
+                <form>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="name">
+                            Name
+                        </label>
+                        <input class="w-full border border-gray-300 rounded-lg px-3 py-2 mt-1" id="name" type="text" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="email">
+                            Email
+                        </label>
+                        <input class="w-full border border-gray-300 rounded-lg px-3 py-2 mt-1" id="email"
+                            type="email" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="password">
+                            Password
+                        </label>
+                        <input class="w-full border border-gray-300 rounded-lg px-3 py-2 mt-1" id="password"
+                            type="password" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700" for="confirm-password">
+                            Confirm Password
+                        </label>
+                        <input class="w-full border border-gray-300 rounded-lg px-3 py-2 mt-1" id="confirm-password"
+                            type="password" />
+                    </div>
+                    <div class="mb-4 flex items-center">
+                        <input class="mr-2" id="age" type="checkbox" />
+                        <label class="text-gray-700" for="age">
+                            I am 18 years old.
+                        </label>
+                    </div>
+                    <button class="w-full bg-black text-white rounded-lg py-2" type="submit">
+                        Register
+                    </button>
+                </form>
+                <p class="text-center text-gray-700 mt-4">
+                    Already have an account
+                    <a class="text-blue-500" href="./login.html">
+                        Login here
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full inline-block h-[30vh] md:h-[50vh] lg:h-[30vh]"></div>
     <!-- ======= Footer  =========== -->
-    <section class="min-h-[50vh] bg-gray-200/50">
+    <section class="min-h-[50vh] ">
         <div class="bg-black  text-white footer-corner h-full min-h-[500px]  flex items-center justify-center ">
             <div class="w-full md:w-2/3 flex flex-col items-center gap-5 pt-[200px]">
                 <h4 class="text-2xl lg:text-3xl text-center">Responsible Gaming </h4>
@@ -124,6 +209,148 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init(); 
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('form');
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const passwordInput = document.getElementById('password');
+            const confirmPasswordInput = document.getElementById('confirm-password');
+            const ageCheckbox = document.getElementById('age');
+            const registerButton = document.querySelector('button[type="submit"]');
+
+            // Add error message elements
+            function createErrorElement(id) {
+                const errorEl = document.createElement('p');
+                errorEl.id = id;
+                errorEl.className = 'text-red-500 text-xs mt-1 hidden';
+                return errorEl;
+            }
+
+            // Create and append error elements
+            const nameError = createErrorElement('name-error');
+            nameError.textContent = 'Name is required';
+            nameInput.parentNode.appendChild(nameError);
+
+            const emailError = createErrorElement('email-error');
+            emailError.textContent = 'Please enter a valid email address';
+            emailInput.parentNode.appendChild(emailError);
+
+            const passwordError = createErrorElement('password-error');
+            passwordError.textContent = 'Password must be at least 8 characters';
+            passwordInput.parentNode.appendChild(passwordError);
+
+            const confirmPasswordError = createErrorElement('confirm-password-error');
+            confirmPasswordError.textContent = 'Passwords do not match';
+            confirmPasswordInput.parentNode.appendChild(confirmPasswordError);
+
+            const ageError = createErrorElement('age-error');
+            ageError.textContent = 'You must confirm you are 18 years old';
+            ageCheckbox.parentNode.appendChild(ageError);
+
+            // Validate email format
+            const validateEmail = (email) => {
+                const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                return re.test(String(email).toLowerCase());
+            };
+
+            // Form submission handler
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Reset errors
+                const errorElements = document.querySelectorAll('[id$="-error"]');
+                errorElements.forEach(el => el.classList.add('hidden'));
+
+                // Get form values
+                const name = nameInput.value.trim();
+                const email = emailInput.value.trim();
+                const password = passwordInput.value.trim();
+                const confirmPassword = confirmPasswordInput.value.trim();
+                const isAgeConfirmed = ageCheckbox.checked;
+
+                // Validation flags
+                let isValid = true;
+
+                // Validate name
+                if (!name) {
+                    nameError.classList.remove('hidden');
+                    isValid = false;
+                }
+
+                // Validate email
+                if (!validateEmail(email)) {
+                    emailError.classList.remove('hidden');
+                    isValid = false;
+                }
+
+                // Validate password length
+                if (password.length < 8) {
+                    passwordError.classList.remove('hidden');
+                    isValid = false;
+                }
+
+                // Validate password match
+                if (password !== confirmPassword) {
+                    confirmPasswordError.classList.remove('hidden');
+                    isValid = false;
+                }
+
+                // Validate age checkbox
+                if (!isAgeConfirmed) {
+                    ageError.classList.remove('hidden');
+                    isValid = false;
+                }
+
+                // If valid, submit the form
+                if (isValid) {
+                    // Change button text and disable it
+                    registerButton.textContent = 'Processing...';
+                    registerButton.disabled = true;
+
+                    // Log form data to console
+                    console.log({
+                        name,
+                        email,
+                        password,
+                        confirmPassword,
+                        isAgeConfirmed
+                    });
+
+                    // Simulate form submission delay
+                    setTimeout(() => {
+                        // Reset button text
+                        registerButton.textContent = 'Register';
+                        registerButton.disabled = false;
+
+                        // Optional: Reset form after successful submission
+                        form.reset();
+
+                        // Optional: Show success message
+                        alert('Registration successful!');
+                    }, 2000);
+                }
+            });
+
+            // Real-time validation for password match
+            confirmPasswordInput.addEventListener('input', function () {
+                if (passwordInput.value !== confirmPasswordInput.value) {
+                    confirmPasswordError.classList.remove('hidden');
+                } else {
+                    confirmPasswordError.classList.add('hidden');
+                }
+            });
+
+            // Real-time validation for password length
+            passwordInput.addEventListener('input', function () {
+                if (passwordInput.value.length < 8 && passwordInput.value.length > 0) {
+                    passwordError.classList.remove('hidden');
+                } else {
+                    passwordError.classList.add('hidden');
+                }
+            });
+        });
     </script>
 </body>
 
