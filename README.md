@@ -93,7 +93,7 @@ When you're ready to build the website for production:
 This command will:
 - Process the Tailwind CSS
 - Minify the output CSS for production
-- Write the final CSS to `./public/output.css`
+- Write the final CSS to `./public/main.css`
 
 ### Deploying the Website
 
