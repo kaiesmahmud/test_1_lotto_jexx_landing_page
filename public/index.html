@@ -7,6 +7,8 @@
     <title>Lotto Jaxx </title>
     <!-- ======== Tailwindcss ======== -->
     <link href="./output.css" rel="stylesheet">
+    <!-- ========= daisy UI css =========== -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <!-- ======== Custom css ======== -->
     <link href="./main.css" rel="stylesheet">
     <!-- ======== Google fonts ======== -->
@@ -16,7 +18,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body class="bg-white">
     <!-- ====== Disclaimer ======== -->
     <div class="bg-black flex justify-center items-center p-2 gap-3 z-[1000]">
         <img src="./assets/18plus.svg" alt="disclaimer icon" class="w-5 h-5">
@@ -25,6 +27,7 @@
         </p>
     </div>
     <!-- ========== End of Disclaimer ========= -->
+
     <!-- ========== Header Section =========== -->
     <header class="round-corner shadow">
         <!-- ============= Nav Bar ============= -->
@@ -59,6 +62,8 @@
         </div>
         <!-- ============ Hero Section End ============= -->
     </header>
+    <!-- ========== Header Section End =========== -->
+
     <!-- ======= Play Lotto Section ========= -->
     <section class="w-full min-h-[70vh] ">
         <div class="mx-auto w-full md:w-[60%] py-10 space-y-5">
@@ -106,6 +111,7 @@
         </div>
     </section>
     <!-- ======= Play Lotto Section End ========= -->
+
     <!-- ======= Join the Winners Section =========== -->
     <section class="bg-black text-white  grid grid-cols-1 md:grid-cols-12 lg:px-20">
         <div class="md:col-span-12 lg:col-span-4 p-5 flex flex-col gap-2 justify-evenly  min-h-[20vh] md:min-h-[10vh]">
@@ -151,8 +157,9 @@
         </div>
     </section>
     <!-- ======= Join the Winners Section End =========== -->
+
     <!-- ======= Latest Lottery Results =========== -->
-    <section class="min-h-screen p-5 py-10">
+    <section class="min-h-[50vh] p-5 py-10">
         <h3 class="text-4xl lg:text-5xl font-bold text-center">
             Latest Lottery & Results
         </h3>
@@ -162,7 +169,8 @@
         </p>
         <div class="flex  w-full justify-center items-center">
             <div class=" w-full lg:w-[90%] grid grid-cols-1 lg:grid-cols-3 gap-5 md:p-5">
-                <div class="shadow-lg border border-gray-300 rounded-xl lg:col-span-2 bg-white/50 px-2 ">
+                <div data-aos="fade-right"
+                    class="shadow-lg border border-gray-300 rounded-xl lg:col-span-2 bg-white px-2 ">
                     <h2 class="text-xl md:text-2xl font-bold mb-4 p-5 px-3">Lottery Winning Numbers</h2>
                     <div class="overflow-x-auto w-full">
                         <table class="w-full border-collapse ">
@@ -213,9 +221,9 @@
                         </table>
                     </div>
                 </div>
-                <div class="border border-gray-300 rounded-xl p-3 px-5 shadow-lg  bg-white/50">
+                <div data-aos="fade-left" class="border border-gray-300 rounded-xl p-3 px-5 shadow-lg  bg-white">
                     <h2 class="text-xl md:text-2xl font-bold py-5">Our Winners</h2>
-                    <hr class="mb-4 border-gray-300">  
+                    <hr class="mb-4 border-gray-300">
                     <div class="space-y-4">
                         <div class="flex flex-col">
                             <p class="font-bold">Vola Pitmar</p>
@@ -240,23 +248,130 @@
                             <p class="text-gray-600 text-sm">Cancer Charity, 30/03/2025</p>
                             <p class="text-green-600 font-bold">€500.00</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
 
         </div>
     </section>
     <!-- ======= Latest Lottery Results End =========== -->
-    <!-- ======= Players Feedback =========== -->
-    <section class="min-h-screen">
 
+    <!-- ======= Players Feedback =========== -->
+    <section class="min-h-[30vh] flex items-center justify-center">
+        <div class="w-full lg:w-[90%] px-5 md:px-10 py-10">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                <!-- Left Section -->
+                <div data-aos="fade-right" class="lg:pl-5">
+                    <h2 class="text-3xl md:text-4xl lg:text-6xl  font-bold">Players <br> Feedback</h2>
+                    <div class="flex items-center space-x-2 mt-4">
+                        <img src="./assets/players-feedback.svg" alt="players" loading="lazy">
+                    </div>
+                    <!-- Star Ratings -->
+                    <div class="space-y-2 mt-2">
+                        <div class="text-orange-400 text-2xl">
+                            ★★★★★
+                        </div>
+                        <p class="ml-2 text-gray-600 font-semibold text-lg">4.5- <span
+                                class="text-sm text-gray-500">(25,750 Reviews)</span></p>
+                    </div>
+                </div>
+
+                <!-- Review 1 -->
+                <div data-aos="fade-left" class="bg-white p-6 rounded-lg shadow-md relative border border-gray-300">
+                    <div class="text-center ">
+                        <div class="flex items-center justify-center">
+                            <img src="./assets/quote.svg" alt="">
+                        </div>
+                        <p class="mt-3 text-gray-700 text-sm">
+                            "Faber Lotto is such a fun and exciting game to play! The online platform is so easy to use,
+                            and I love being able to buy my tickets from anywhere. I've had a few small wins, but I'm
+                            always chasing that big prize!"
+                        </p>
+                        <h3 class="mt-3 font-semibold pb-3">Aniska Ridi</h3>
+                        <img src="./assets/face1.png"
+                            class="w-14 h-14 rounded-full absolute bottom-0 left-[50%] translate-y-[50%] translate-x-[-50%]"
+                            alt="User" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div data-aos="fade-left" data-aos-delay="150"
+                    class="bg-white p-6 rounded-lg shadow-md relative border border-gray-300">
+                    <div class="text-center">
+                        <div class="flex items-center justify-center">
+                            <img src="./assets/quote.svg" alt="">
+                        </div>
+                        <p class="mt-3 text-gray-700 text-sm">
+                            "Faber Lotto is such a fun and exciting game to play! The online platform is so easy to use,
+                            and I love being able to buy my tickets from anywhere. I've had a few small wins, but I'm
+                            always chasing that big prize!"
+                        </p>
+                        <h3 class="mt-3 font-semibold pb-3">Lizby Urha</h3>
+                        <img src="./assets/face2.png"
+                            class="w-14 h-14 rounded-full absolute bottom-0 left-[50%] translate-y-[50%] translate-x-[-50%]"
+                            alt="User" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- ======= Players Feedback End =========== -->
+     
     <!-- ======= FAQ =========== -->
-    <section class="min-h-[50vh]">
-
+    <section class="min-h-[50vh] flex items-center justify-center bg-gray-200/50">
+        <div class="  w-full lg:w-[90%] p-6">
+            <div class="grid md:grid-cols-2 gap-6 items-center">
+                <!-- Image Section -->
+                <div>
+                    <img src="./assets/faq.png" alt="FAQ Image" loading="lazy" class="rounded-lg w-full h-auto">
+                </div> 
+                <!-- FAQ Section -->
+                <div class="bg-white rounded-xl p-5 border border-gray-300 shadow">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-center mb-4">FAQ</h2>
+                    <div class="space-y-2">
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                            <input type="radio" name="faq-accordion" checked />
+                            <div class="collapse-title font-semibold">Is online betting legal in Australia?</div>
+                            <div class="collapse-content text-sm">
+                                Yes, online betting is legal in Australia, but it is regulated under the Interactive
+                                Gambling Act 2001. Only licensed bookmakers can offer online betting services to
+                                Australian residents.
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                            <input type="radio" name="faq-accordion" />
+                            <div class="collapse-title font-semibold">Do I need to verify my account before placing a
+                                bet?</div>
+                            <div class="collapse-content text-sm">
+                                Yes, account verification is required to comply with legal regulations and ensure
+                                security. You may need to provide identification documents.
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                            <input type="radio" name="faq-accordion" />
+                            <div class="collapse-title font-semibold">Do I need to verify my account before placing a
+                                bet?</div>
+                            <div class="collapse-content text-sm">
+                                Yes, account verification is required to comply with legal regulations and ensure
+                                security. You may need to provide identification documents.
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                            <input type="radio" name="faq-accordion" />
+                            <div class="collapse-title font-semibold">Do I need to verify my account before placing a
+                                bet?</div>
+                            <div class="collapse-content text-sm">
+                                Yes, account verification is required to comply with legal regulations and ensure
+                                security. You may need to provide identification documents.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- ======= FAQ End =========== -->
+
     <!-- ======= Footer  =========== -->
     <section class="min-h-[50vh]">
 
