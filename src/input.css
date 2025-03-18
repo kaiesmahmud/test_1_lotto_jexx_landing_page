@@ -23,9 +23,9 @@ header {
 
 /* Media Queries for Responsive Background Images */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .round-corner { 
         clip-path: ellipse(100% 80% at 50% 0%);
     }
      
-}
+} */
