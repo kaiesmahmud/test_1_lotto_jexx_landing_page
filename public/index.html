@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body class="bg-white">
+<body >
     <!-- ====== Disclaimer ======== -->
     <div class="bg-black flex justify-center items-center p-2 gap-3 z-[1000]">
         <img src="./assets/18plus.svg" alt="disclaimer icon" class="w-5 h-5">
@@ -39,11 +39,15 @@
                 </a>
             </div>
             <div>
-                <button
-                    class="px-3 py-1 md:px-5 md:py-2 rounded-full text-xs md:text-base border-2 border-white font-bold text-white bg-black/10 backdrop-blur-3xl hover:border-black/10 hover:text-black hover:bg-white transition-all duration-200">Login</button>
-                <button
-                    class="px-3 py-1 md:px-5 md:py-2 rounded-full text-xs md:text-base bg-white border-2 border-white text-black font-bold hover:bg-black hover:border-black hover:text-white transition-all duration-200 ">Register
-                    Now</button>
+                <a href="./login.html">
+                    <button
+                        class="px-3 py-1 md:px-5 md:py-2 rounded-full text-xs md:text-base border-2 border-white font-bold text-white bg-black/10 backdrop-blur-3xl hover:border-black/10 hover:text-black hover:bg-white transition-all duration-200">Login</button>
+                </a>
+                <a href="./register.html">
+                    <button
+                        class="px-3 py-1 md:px-5 md:py-2 rounded-full text-xs md:text-base bg-white border-2 border-white text-black font-bold hover:bg-black hover:border-black hover:text-white transition-all duration-200 ">Register
+                        Now</button>
+                </a>
             </div>
         </nav>
         <!-- ============ Nav Bar End =========== -->
@@ -65,7 +69,7 @@
     <!-- ========== Header Section End =========== -->
 
     <!-- ======= Play Lotto Section ========= -->
-    <section class="w-full min-h-[70vh] ">
+    <section class="w-full min-h-[70vh] relative ">
         <div class="mx-auto w-full md:w-[60%] py-10 space-y-5">
             <h2 data-aos="fade-right" class="text-4xl md:text-5xl text-center font-black">Play Lotto</h2>
             <p data-aos="fade-in" class="text-center p-3 text-gray-600">
@@ -109,6 +113,8 @@
 
 
         </div>
+        <img src="./assets/balls-l.svg" alt="bg balls" class="hidden lg:block lg:absolute top-0 left-0   h-full">
+        <img src="./assets/balls-r.svg" alt="bg balls" class="hidden lg:block  lg:absolute top-0 right-0   h-full">
     </section>
     <!-- ======= Play Lotto Section End ========= -->
 
@@ -120,9 +126,12 @@
                 their dreams into reality with Saturday Lotto. Could you be the next lucky winner?
             </p>
             <div>
-                <button
-                    class="rounded-full bg-white text-black hover:text-black/80 hover:bg-white/80 px-5 py-2 font-bold duration-200 cursor-pointer text-sm lg:text-base">Register
-                    Now</button>
+                <a href="./register.html">
+                    <button
+                        class="rounded-full bg-white text-black hover:text-black/80 hover:bg-white/80 px-5 py-2 font-bold duration-200 cursor-pointer text-sm lg:text-base">Register
+                        Now</button>
+
+                </a>
             </div>
         </div>
         <div class="md:col-span-6 lg:col-span-4 h-full  flex justify-center items-center py-5">
@@ -378,16 +387,29 @@
             <div class="w-full md:w-2/3 flex flex-col items-center gap-5 pt-[200px]">
                 <h4 class="text-2xl lg:text-3xl text-center">Responsible Gaming </h4>
                 <p class="text-gray-600 text-center text-xs md:text-sm">
-                    Make Informed Decisions. Your well-being is our priority. If you require assistance or guidance regarding gambling, please contact Gambling Help at 1800 858 858 or visit GambleAware online at gambleaware.nsw.gov.au. About BetStop. BetStop is Australia's official National Self-Exclusion Register, offering a free and confidential service for those who wish to exclude themselves from all licensed online gambling providers. For more details and to access this service, visit betstop.gov.au.Licensed and Regulated. Saturday Lotto operates under a license issued by the Australian Government Department and adheres to the laws and regulations set by the Australian Gambling Commission. We are dedicated to upholding the highest standards of integrity and responsible gambling practices.
+                    Make Informed Decisions. Your well-being is our priority. If you require assistance or guidance
+                    regarding gambling, please contact Gambling Help at 1800 858 858 or visit GambleAware online at
+                    gambleaware.nsw.gov.au. About BetStop. BetStop is Australia's official National Self-Exclusion
+                    Register, offering a free and confidential service for those who wish to exclude themselves from all
+                    licensed online gambling providers. For more details and to access this service, visit
+                    betstop.gov.au.Licensed and Regulated. Saturday Lotto operates under a license issued by the
+                    Australian Government Department and adheres to the laws and regulations set by the Australian
+                    Gambling Commission. We are dedicated to upholding the highest standards of integrity and
+                    responsible gambling practices.
                     <br>
-                    Ownership and Copyright. Saturday Lotto is proudly managed by The Australian Group Limited. The Saturday Lotto logo is a registered trademark of The Australian Group Limited, with all intellectual property rights reserved. Age Restrictions. Participation in gambling activities is strictly limited to individuals aged 18 and above. We take active measures to prevent underage gambling in accordance with Australian law.
+                    Ownership and Copyright. Saturday Lotto is proudly managed by The Australian Group Limited. The
+                    Saturday Lotto logo is a registered trademark of The Australian Group Limited, with all intellectual
+                    property rights reserved. Age Restrictions. Participation in gambling activities is strictly limited
+                    to individuals aged 18 and above. We take active measures to prevent underage gambling in accordance
+                    with Australian law.
                 </p>
                 <img class="lg:w-2/3" src="./assets/award.svg" alt="help" loading="lazy">
 
                 <div class="lg:w-2/3">
                     <p class="text-gray-600 text-xs md:text-sm text-center">
                         Think! About your choices. Gamble Responsibly. Call Gambling Help on 1800 858 858. <br>
-GambleAware We are committed to Responsible Gambling. Persons under 18 years of age are not permitted to gamble.
+                        GambleAware We are committed to Responsible Gambling. Persons under 18 years of age are not
+                        permitted to gamble.
                     </p>
                 </div>
                 <div class="lg:w-2/3 flex flex-wrap justify-center text-sm">
@@ -395,9 +417,9 @@ GambleAware We are committed to Responsible Gambling. Persons under 18 years of 
                     <a href="#" class="hover:underline text-[#AEFE3A] px-2 py-1">Responsible Gaming</a>
                     <a href="#" class="hover:underline text-[#AEFE3A] px-2 py-1">ANJ / Arjel
                     </a>
-                    <a href="#" class="hover:underline text-[#AEFE3A] px-2 py-1">Privacy Policy</a>
-                    <a href="#" class="hover:underline text-[#AEFE3A] px-2 py-1">Terms and Conditions</a>
-                    <a href="#" class="hover:underline text-[#AEFE3A] px-2 py-1">Cookies Policy</a>
+                    <a href="./privacy.html" class="hover:underline text-[#AEFE3A] px-2 py-1">Privacy Policy</a>
+                    <a href="./terms.html" class="hover:underline text-[#AEFE3A] px-2 py-1">Terms and Conditions</a>
+                    <a href="./cookie.html" class="hover:underline text-[#AEFE3A] px-2 py-1">Cookies Policy</a>
                     <a href="#" class="hover:underline text-[#AEFE3A] px-2 py-1">Contact</a>
                 </div>
                 <hr class=" w-full border-gray-600 pt-2" />
